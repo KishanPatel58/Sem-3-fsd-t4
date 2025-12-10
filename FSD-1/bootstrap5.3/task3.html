@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <title>Task 3</title>
+</head>
+
+<body>
+    <form action="" class="w-50 was-validated">
+        <div class="container d-flex justify-content-start align-items-center gap-5 mt-3">
+            <label for="Name">Name</label>
+            <input type="text" id="Name" class="form-control" required>
+            <div class="valid-feedback">Valid!</div>
+            <div class="invalid-feedback">Enter Valid Name!</div>
+        </div>
+        <div class="container d-flex justify-content-start align-items-center gap-5 mt-3">
+            <label for="Email">Email</label>
+            <input type="email" id="Email" class="form-control" required>
+            <div class="valid-feedback">Valid!</div>
+            <div class="invalid-feedback">Enter Valid Email!</div>
+        </div>
+        <div class="container d-flex justify-content-start align-items-center gap-5 mt-3">
+            <label for="Message">Message</label>
+            <textarea name="" id="Message" class="w-100"></textarea>
+        </div>
+        <div class="row">
+            <div class="col-sm-3">
+                <button class="btn btn-danger" data-bs-target="#Modal" data-bs-toggle="modal">Send</button>
+            </div>
+            <div class="col-sm-3">
+                <input type="reset" value="Reset">
+            </div>
+        </div>
+    </form>
+    <div class="modal fade border-1 border-success text-success w-50 h-50" id="Modal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5">Message Send Successfully</h1>
+                    <button type="button" class="btn-close" data-bs-toggle="modal"></button>
+                </div> 
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

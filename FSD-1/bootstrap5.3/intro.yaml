@@ -33,3 +33,8 @@ text-decoration-line-through -> line through
 text-start -> align start
 text-center -> align center
 text-end -> align end
+
+# Exam purpose
+<link rel="stylesheet" href="bootstrap.min.css">
+<script src="bootstrap.bundle.min.js"></script>
+<link rel="stylesheet" href="bootstrap-icons.min.css">
