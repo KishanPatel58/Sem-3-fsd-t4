@@ -1,0 +1,32 @@
+JavaScript:-
+-> live script (first name of JavaScript)
+-> scripting language
+-> mak wp "alive"
+-> client side & Server side
+-> use browser DOM
+-> .js
+
+Types of JavaScript :-
+1) Internal :-
+using '<script></script>'
+
+2) External :-
+link through '<script src="script.js"></script>'
+
+Variables :- ('let' and 'const' and 'var')
+
+Datatypes :-
+1) primitive -> number,string,boolean,undefined,null
+2) non primitive -> object,array
+
+Comparision Operator :- ('==' and '===')
+'==' :- this is comparision Operator
+'===' :- this is strict comparision Operator
+
+Condetion Check :- ('if' and 'else if' and 'else')
+'if(condetion)'
+'else if(condetion)'
+'else'
+
+Switch Case :-
+'switch(case)'
